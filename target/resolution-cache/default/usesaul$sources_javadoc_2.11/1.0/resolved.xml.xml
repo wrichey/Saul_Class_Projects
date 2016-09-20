@@ -4,7 +4,7 @@
 		module="usesaul$sources_javadoc_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160913004104"
+		publication="20160915164403"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -34,7 +34,6 @@
 		</dependency>
 		<dependency org="edu.illinois.cs.cogcomp" name="LBJava" rev="1.2.20" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="LBJava" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="LBJava" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="nz.ac.waikato.cms.weka" name="weka-stable" rev="3.6.10" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="weka-stable" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -51,25 +50,12 @@
 			<artifact name="ojalgo" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="ojalgo" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.apache.commons" name="commons-math3" rev="3.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="commons-math3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="commons-math3" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
 		<dependency org="edu.illinois.cs.cogcomp" name="illinois-core-utilities" rev="3.0.64" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="illinois-core-utilities" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="illinois-core-utilities" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="edu.illinois.cs.cogcomp" name="jwnl-prime" rev="1.0.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="jwnl-prime" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jwnl-prime" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="commons-logging" name="commons-logging" rev="1.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="commons-logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="commons-logging" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="edu.illinois.cs.cogcomp" name="wordnet" rev="1.0-binary" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="wordnet" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="wordnet" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="junit" name="junit" rev="4.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="junit" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -93,7 +79,6 @@
 		</dependency>
 		<dependency org="commons-lang" name="commons-lang" rev="2.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="commons-lang" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="commons-lang" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="net.sf.ehcache" name="ehcache" rev="2.8.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="ehcache" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -106,13 +91,13 @@
 			<artifact name="gson" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="gson" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="edu.princeton" name="wordnet-dict" rev="3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="wordnet-dict" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="wordnet-dict" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
 		<dependency org="com.h2database" name="h2" rev="1.4.191" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="h2" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="h2" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-math3" rev="3.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-math3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-math3" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="scalatest_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -252,7 +237,6 @@
 		</dependency>
 		<dependency org="javax.transaction" name="jta" rev="1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jta" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jta" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.google.inject" name="guice" rev="4.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="guice" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -264,7 +248,6 @@
 		</dependency>
 		<dependency org="aopalliance" name="aopalliance" rev="1.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="aopalliance" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="aopalliance" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.google.guava" name="guava" rev="16.0.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>

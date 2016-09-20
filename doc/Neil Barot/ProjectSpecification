@@ -1,0 +1,21 @@
+Neil Barot
+Machine Learning Project Plan
+1) Give it a title
+Poker Advisor
+
+2) Describe the problem for the audience who is not familiar with your field and terminology and (3) Why this problem is important or interesting?
+Approximately 40 million people playing poker around the world! Of these, a majority of poker games happen online. The science and decision making behind poker hands has been studied. 
+As a result of all this studying, people have calculated the probability of each hand based on the situation. However, with a game like poker, there is a human component where people bluff or are not cognizant of these probabilities and thus they play “imperfectly” or not according to correct probability. 
+Using machine learning, we can try inputting a large amount of history from online poker game databases to build a program that recommends how to play a hand depending on the situation and the forum (e.g. Pokerstar users, a particular friend, etc.).
+
+4) What is your input space?
+In one example, my input space would be a set of conditions on a table. For example, it would show the current cards showing, the number of players, their chip stacks, the blinds, the pot size, and my current hand.
+
+5) What is your output space?
+The output space would include all possible decisions I could make (check, call, raise by X, and fold). 
+
+6) Do you know any data available for your learning task?
+As mentioned earlier, there are websites that have a large number of poker games stored in databases. Pokerstars has a history of played tournaments. You can also collect data from online games with friends, etc. to add to user-specific data sets. 
+
+7) What learning paradigm you think you will use (supervised, unsupervised, ..)?
+Since I would be providing large amounts of data sets and giving and input while looking for a desired output, I would be using supervised learning.

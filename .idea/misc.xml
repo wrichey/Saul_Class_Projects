@@ -29,6 +29,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
@@ -51,19 +52,13 @@
       </map>
     </option>
   </component>
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+>>>>>>> 3934da1400dce284ca5da9a8c80931047a4a5f21
   <component name="SbtSettings">
     <option name="sbtLauncherJarPath" value="$USER_HOME$/deepdive/sbt/sbt-launch.jar" />
-  </component>
-  <component name="ScalaProjectSettings">
-    <option name="intInjectionMapping">
-      <map>
-        <entry key="xml" value="XML" />
-      </map>
-    </option>
-  </component>
-  <component name="ScalaSbtSettings">
-    <option name="customLauncherPath" value="$USER_HOME$/deepdive/sbt/sbt-launch.jar" />
-    <option name="customVMPath" value="$USER_HOME$/deepdive/sbt" />
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
