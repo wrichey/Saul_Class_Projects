@@ -1,4 +1,14 @@
 package Readers;
+<<<<<<< HEAD:src/main/java/BadgeReader.java
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+public class BadgeReader  {
+=======
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -7,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BadgeReader {
+>>>>>>> 6520e02cdd1190574752421658de3489594be4ae:src/main/java/Readers/BadgeReader.java
 	public List<String> badges;
 	// int currentBadge;
 	
@@ -24,4 +35,5 @@ public class BadgeReader {
 	        br.close();
 		}catch (Exception e) {}
 	}
+
 }
