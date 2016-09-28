@@ -1,4 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+.idea
 */.DS_Store
 /RUNNING_PID
 */logs/
