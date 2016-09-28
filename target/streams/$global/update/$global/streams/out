@@ -1,27 +1,27 @@
-[info] Updating {file:/Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/}usesaul...
-[debug] :: resolving dependencies :: default#usesaul_2.11;1.0
+[info] Updating {file:/Users/chloechen/Documents/machineLearning/Saul_Class_Projects/}saul_class_projects...
+[debug] :: resolving dependencies :: usesaul#usesaul_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@153a0191
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c39b055
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
 [info] Resolving edu.illinois.cs.cogcomp#saul_2.11;0.5 ...
 [debug] sbt-chain: Checking cache for: dependency: edu.illinois.cs.cogcomp#saul_2.11;0.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: edu.illinois.cs.cogcomp#saul_2.11;0.5
 [debug] 	found edu.illinois.cs.cogcomp#saul_2.11;0.5 in sbt-chain
 [debug] 	[0.5] edu.illinois.cs.cogcomp#saul_2.11;0.5
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
@@ -38,9 +38,9 @@
 [debug] sbt-chain: module revision found in cache: nz.ac.waikato.cms.weka#weka-stable;3.6.10
 [debug] 	found nz.ac.waikato.cms.weka#weka-stable;3.6.10 in sbt-chain
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->compile(*)]
-[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(*)]
+[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(compile)]
 [info] Resolving net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a ...
-[debug] sbt-chain: Checking cache for: dependency: net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a
 [debug] 	found net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a in sbt-chain
 [debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->compile(*)]
@@ -238,28 +238,28 @@
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
 [debug] 	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime(*)]
@@ -347,7 +347,7 @@
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->com.typesafe#config;1.3.0 [compile->master(compile)]
@@ -411,7 +411,6 @@
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [compile->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
@@ -517,7 +516,7 @@
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)]
@@ -596,9 +595,9 @@
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(*)]
+[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: dependency: xml-apis#xml-apis;1.4.01 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: xml-apis#xml-apis;1.4.01 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
 [debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
@@ -652,20 +651,20 @@
 [debug] sbt-chain: Checking cache for: dependency: com.google.inject.extensions#guice-assistedinject;4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.google.inject.extensions#guice-assistedinject;4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/Parisa/.ivy2/local/com.google.inject.extensions/guice-assistedinject/4.0/ivys/ivy.xml
+[debug] 		tried /Users/chloechen/.ivy2/local/com.google.inject.extensions/guice-assistedinject/4.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.google.inject.extensions#guice-assistedinject;4.0
-[debug] 		tried https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	public: found md file for com.google.inject.extensions#guice-assistedinject;4.0
-[debug] 		=> https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom (4.0)
-[debug] downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (131ms)
+[debug] 		tried https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
+[debug] 	jcenter: found md file for com.google.inject.extensions#guice-assistedinject;4.0
+[debug] 		=> https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom (4.0)
+[debug] downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
+[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (735ms)
 [info] Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}
 [debug] sbt-chain: module revision found in cache: com.google.inject.extensions#extensions-parent;4.0
-[debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in public
+[debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in jcenter
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->com.google.inject.extensions#guice-assistedinject;4.0 [compile->compile(*)]
 [debug] == resolving dependencies com.google.inject.extensions#guice-assistedinject;4.0->com.google.inject#guice;4.0 [compile->master(compile)]
 [debug] == resolving dependencies com.google.inject.extensions#guice-assistedinject;4.0->com.google.inject#guice;4.0 [compile->compile(*)]
@@ -857,24 +856,24 @@
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->ch.qos.logback#logback-classic;1.1.7 [runtime->compile]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->com.typesafe.play#play_2.11;2.4.3 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->com.typesafe.play#play_2.11;2.4.3 [runtime->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [runtime]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [runtime]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->compile(*)]
-[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(*)]
+[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(compile)]
 [debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->de.bwaldvogel#liblinear;1.94 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->de.bwaldvogel#liblinear;1.94 [compile->compile(*)]
@@ -930,19 +929,19 @@
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.apache.commons#commons-math3;3.0 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->ch.qos.logback#logback-classic;1.1.7 [compile->master(compile)]
@@ -971,7 +970,7 @@
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->com.typesafe#config;1.3.0 [compile->master(compile)]
@@ -1062,7 +1061,7 @@
 [debug] == resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)]
@@ -1123,7 +1122,7 @@
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.apache.commons#commons-lang3;3.4 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(*)]
+[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
 [debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->javax.transaction#jta;1.1 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->javax.transaction#jta;1.1 [compile->compile(*)]
@@ -1409,25 +1408,25 @@
 [debug] == resolving dependencies com.google.inject.extensions#guice-assistedinject;4.0->com.google.inject#guice;4.0 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [test]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [runtime]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [test]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [runtime]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->compile(*)]
-[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(*)]
+[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(compile)]
 [debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->de.bwaldvogel#liblinear;1.94 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->de.bwaldvogel#liblinear;1.94 [compile->compile(*)]
@@ -1483,19 +1482,19 @@
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.apache.commons#commons-math3;3.0 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->ch.qos.logback#logback-classic;1.1.7 [compile->master(compile)]
@@ -1524,7 +1523,7 @@
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->com.typesafe#config;1.3.0 [compile->master(compile)]
@@ -1615,7 +1614,7 @@
 [debug] == resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)]
@@ -1676,7 +1675,7 @@
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.apache.commons#commons-lang3;3.4 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(*)]
+[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
 [debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->javax.transaction#jta;1.1 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->javax.transaction#jta;1.1 [compile->compile(*)]
@@ -1962,28 +1961,28 @@
 [debug] == resolving dependencies com.google.inject.extensions#guice-assistedinject;4.0->com.google.inject#guice;4.0 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [provided]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [optional]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [compile-internal]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [compile-internal]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->compile(*)]
-[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(*)]
+[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(compile)]
 [debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->de.bwaldvogel#liblinear;1.94 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->de.bwaldvogel#liblinear;1.94 [compile->compile(*)]
@@ -2039,19 +2038,19 @@
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.apache.commons#commons-math3;3.0 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->ch.qos.logback#logback-classic;1.1.7 [compile->master(compile)]
@@ -2080,7 +2079,7 @@
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->com.typesafe#config;1.3.0 [compile->master(compile)]
@@ -2171,7 +2170,7 @@
 [debug] == resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)]
@@ -2232,7 +2231,7 @@
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.apache.commons#commons-lang3;3.4 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(*)]
+[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
 [debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->javax.transaction#jta;1.1 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->javax.transaction#jta;1.1 [compile->compile(*)]
@@ -2518,27 +2517,27 @@
 [debug] == resolving dependencies com.google.inject.extensions#guice-assistedinject;4.0->com.google.inject#guice;4.0 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [optional]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [provided]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [optional]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [runtime-internal]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [runtime]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [runtime-internal]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [runtime]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->compile(*)]
-[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(*)]
+[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(compile)]
 [debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->de.bwaldvogel#liblinear;1.94 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->de.bwaldvogel#liblinear;1.94 [compile->compile(*)]
@@ -2594,19 +2593,19 @@
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.apache.commons#commons-math3;3.0 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->ch.qos.logback#logback-classic;1.1.7 [compile->master(compile)]
@@ -2635,7 +2634,7 @@
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->com.typesafe#config;1.3.0 [compile->master(compile)]
@@ -2726,7 +2725,7 @@
 [debug] == resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)]
@@ -2787,7 +2786,7 @@
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.apache.commons#commons-lang3;3.4 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(*)]
+[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
 [debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->javax.transaction#jta;1.1 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->javax.transaction#jta;1.1 [compile->compile(*)]
@@ -3073,27 +3072,27 @@
 [debug] == resolving dependencies com.google.inject.extensions#guice-assistedinject;4.0->com.google.inject#guice;4.0 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [optional]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [test-internal]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [test]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [runtime]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [test-internal]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [test]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [runtime]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->compile]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->compile(*)]
-[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(*)]
+[debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master(compile)]
 [debug] == resolving dependencies nz.ac.waikato.cms.weka#weka-stable;3.6.10->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->de.bwaldvogel#liblinear;1.94 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#LBJava;1.2.20->de.bwaldvogel#liblinear;1.94 [compile->compile(*)]
@@ -3149,19 +3148,19 @@
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.apache.commons#commons-math3;3.0 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->master(compile)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->org.scalatest#scalatest_2.11;2.2.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.illinois.cs.cogcomp#saul_2.11;0.5->ch.qos.logback#logback-classic;1.1.7 [compile->master(compile)]
@@ -3190,7 +3189,7 @@
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play-iteratees_2.11;2.4.3->com.typesafe#config;1.3.0 [compile->master(compile)]
@@ -3281,7 +3280,7 @@
 [debug] == resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)]
@@ -3342,7 +3341,7 @@
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.apache.commons#commons-lang3;3.4 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->xerces#xercesImpl;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(*)]
+[debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->master(compile)]
 [debug] == resolving dependencies xerces#xercesImpl;2.11.0->xml-apis#xml-apis;1.4.01 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->javax.transaction#jta;1.1 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->javax.transaction#jta;1.1 [compile->compile(*)]
@@ -3628,26 +3627,26 @@
 [debug] == resolving dependencies com.google.inject.extensions#guice-assistedinject;4.0->com.google.inject#guice;4.0 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.4.3->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [optional]
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [provided]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [optional]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [plugin]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [sources]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [docs]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [pom]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#usesaul_2.11;1.0 [scala-tool]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default]
+[debug] == resolving dependencies for usesaul#usesaul_2.11;1.0 [scala-tool]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default]
 [info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
 [debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default]
@@ -3706,19 +3705,19 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)]
 [info] Resolving jline#jline;2.12.1 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
 [debug] 	found jline#jline;2.12.1 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->default]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->compile]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->master]
-[debug] == resolving dependencies default#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->default]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->compile]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->master]
+[debug] == resolving dependencies usesaul#usesaul_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
@@ -3728,10 +3727,34 @@
 [debug] 	[NOT REQUIRED] edu.illinois.cs.cogcomp#illinois-core-utilities;3.0.64!illinois-core-utilities.jar
 [debug] 	[NOT REQUIRED] edu.illinois.cs.cogcomp#illinois-core-utilities;3.0.64!illinois-core-utilities.jar
 [debug] 	[NOT REQUIRED] com.gurobi#gurobi;6.0!gurobi.jar
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-math3;3.0!commons-math3.jar
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.7!logback-classic.jar
-[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.11;2.4.3!play_2.11.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/org.apache.commons/commons-math3/3.0/jars/commons-math3.jar
+[debug] 		tried https://jcenter.bintray.com/org/apache/commons/commons-math3/3.0/commons-math3-3.0.jar
+[info] downloading https://jcenter.bintray.com/org/apache/commons/commons-math3/3.0/commons-math3-3.0.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-math3/3.0/commons-math3-3.0.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-math3/3.0/commons-math3-3.0.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/commons/commons-math3/3.0/commons-math3-3.0.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-math3;3.0!commons-math3.jar (3620ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/org.scalatest/scalatest_2.11/2.2.4/bundles/scalatest_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
+[info] downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle) (16159ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/ch.qos.logback/logback-classic/1.1.7/jars/logback-classic.jar
+[debug] 		tried https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar
+[info] downloading https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar
+[info] 	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.1.7!logback-classic.jar (1771ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/com.typesafe.play/play_2.11/2.4.3/jars/play_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play_2.11;2.4.3!play_2.11.jar (4682ms)
 [debug] 	[NOT REQUIRED] nz.ac.waikato.cms.weka#weka-stable;3.6.10!weka-stable.jar
 [debug] 	[NOT REQUIRED] de.bwaldvogel#liblinear;1.94!liblinear.jar
 [debug] 	[NOT REQUIRED] org.ojalgo#ojalgo;37.1.1!ojalgo.jar
@@ -3744,67 +3767,229 @@
 [debug] 	[NOT REQUIRED] commons-lang#commons-lang;2.3!commons-lang.jar
 [debug] 	[NOT REQUIRED] net.sf.ehcache#ehcache;2.8.3!ehcache.jar
 [debug] 	[NOT REQUIRED] com.googlecode.json-simple#json-simple;1.1!json-simple.jar
-[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.3.1!gson.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/com.google.code.gson/gson/2.3.1/jars/gson.jar
+[debug] 		tried https://jcenter.bintray.com/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar
+[info] downloading https://jcenter.bintray.com/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar
+[info] 	[SUCCESSFUL ] com.google.code.gson#gson;2.3.1!gson.jar (1625ms)
 [debug] 	[NOT REQUIRED] edu.princeton#wordnet-dict;3.1!wordnet-dict.jar
-[debug] 	[NOT REQUIRED] com.h2database#h2;1.4.191!h2.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/com.h2database/h2/1.4.191/jars/h2.jar
+[debug] 		tried https://jcenter.bintray.com/com/h2database/h2/1.4.191/h2-1.4.191.jar
+[info] downloading https://jcenter.bintray.com/com/h2database/h2/1.4.191/h2-1.4.191.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/h2database/h2/1.4.191/h2-1.4.191.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/h2database/h2/1.4.191/h2-1.4.191.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/h2database/h2/1.4.191/h2-1.4.191.jar
+[info] 	[SUCCESSFUL ] com.h2database#h2;1.4.191!h2.jar (3092ms)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
 [debug] 	[NOT REQUIRED] edu.illinois.cs.cogcomp#wordnet;1.0-binary!wordnet.jar
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.16!log4j.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.7!logback-core.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/bundles/scala-xml_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle) (2864ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/ch.qos.logback/logback-core/1.1.7/jars/logback-core.jar
+[debug] 		tried https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar
+[info] downloading https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar
+[info] 	[SUCCESSFUL ] ch.qos.logback#logback-core;1.1.7!logback-core.jar (1778ms)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.20!slf4j-api.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.4.3!build-link.jar
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.11;2.4.3!play-iteratees_2.11.jar
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.11;2.4.3!play-json_2.11.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/com.typesafe.play/play-iteratees_2.11/2.4.3/jars/play-iteratees_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.11;2.4.3!play-iteratees_2.11.jar (2104ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/com.typesafe.play/play-json_2.11/2.4.3/jars/play-json_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.11;2.4.3!play-json_2.11.jar (1048ms)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-utils;2.4.3!play-netty-utils.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.11;1.1.1!twirl-api_2.11.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle)
+[debug] 		tried /Users/chloechen/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/bundles/scala-parser-combinators_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle) (1288ms)
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.12!jul-to-slf4j.jar
 [debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.12!jcl-over-slf4j.jar
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.13!akka-actor_2.11.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.3.13/jars/akka-actor_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.13!akka-actor_2.11.jar (6101ms)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.3.13!akka-slf4j_2.11.jar
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.5.4!jackson-core.jar(bundle)
+[debug] 		tried /Users/chloechen/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.5.4/bundles/jackson-core.jar
+[debug] 		tried https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar
+[info] downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.4!jackson-core.jar(bundle) (2056ms)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.5.4!jackson-annotations.jar(bundle)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.5.4!jackson-databind.jar(bundle)
+[debug] 		tried /Users/chloechen/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar
+[debug] 		tried https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar
+[info] downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.5.4!jackson-databind.jar(bundle) (2310ms)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4!jackson-datatype-jdk8.jar(bundle)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4!jackson-datatype-jsr310.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.8.1!joda-time.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/org.scala-stm/scala-stm_2.11/0.7/jars/scala-stm_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar
+[info] downloading https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar
+[info] 	[SUCCESSFUL ] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar (2226ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/commons-codec/commons-codec/1.10/jars/commons-codec.jar
+[debug] 		tried https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[info] downloading https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[info] 	[SUCCESSFUL ] commons-codec#commons-codec;1.10!commons-codec.jar (925ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/joda-time/joda-time/2.8.1/jars/joda-time.jar
+[debug] 		tried https://jcenter.bintray.com/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar
+[info] downloading https://jcenter.bintray.com/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar
+[info] 	[SUCCESSFUL ] joda-time#joda-time;2.8.1!joda-time.jar (2459ms)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.7!joda-convert.jar
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
-[debug] 	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar
+[debug] 		tried https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+[info] downloading https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.jar (2278ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/xerces/xercesImpl/2.11.0/jars/xercesImpl.jar
+[debug] 		tried https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar
+[info] downloading https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar
+[info] 	[SUCCESSFUL ] xerces#xercesImpl;2.11.0!xercesImpl.jar (2534ms)
 [debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar
-[debug] 	[NOT REQUIRED] com.google.inject#guice;4.0!guice.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/com.google.inject/guice/4.0/jars/guice.jar
+[debug] 		tried https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.jar
+[info] downloading https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.jar
+[info] 	[SUCCESSFUL ] com.google.inject#guice;4.0!guice.jar (2010ms)
 [debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/org.scala-lang/scala-reflect/2.11.6/jars/scala-reflect.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar (3656ms)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.4.3!play-exceptions.jar
-[debug] 	[NOT REQUIRED] org.javassist#javassist;3.19.0-GA!javassist.jar(bundle)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.4.3!play-functional_2.11.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar
+[debug] 		tried https://jcenter.bintray.com/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar
+[info] downloading https://jcenter.bintray.com/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar
+[info] 	[SUCCESSFUL ] org.javassist#javassist;3.19.0-GA!javassist.jar(bundle) (2412ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/com.typesafe/config/1.3.0/bundles/config.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar
+[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.jar(bundle) (1220ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/com.typesafe.play/play-functional_2.11/2.4.3/jars/play-functional_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.11;2.4.3!play-functional_2.11.jar (1338ms)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.11;2.4.3!play-datacommons_2.11.jar
-[debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar
+[debug] 		tried /Users/chloechen/.ivy2/local/xml-apis/xml-apis/1.4.01/jars/xml-apis.jar
+[debug] 		tried https://jcenter.bintray.com/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar
+[info] downloading https://jcenter.bintray.com/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar
+[info] 	[SUCCESSFUL ] xml-apis#xml-apis;1.4.01!xml-apis.jar (1003ms)
 [debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar
 [debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar
-[debug] 	[NOT REQUIRED] com.google.guava#guava;16.0.1!guava.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 2493ms :: artifacts dl 29ms
-[debug] 	report for default#usesaul_2.11;1.0 compile produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-compile.xml
-[debug] 	report for default#usesaul_2.11;1.0 runtime produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-runtime.xml
-[debug] 	report for default#usesaul_2.11;1.0 test produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-test.xml
-[debug] 	report for default#usesaul_2.11;1.0 provided produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-provided.xml
-[debug] 	report for default#usesaul_2.11;1.0 optional produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-optional.xml
-[debug] 	report for default#usesaul_2.11;1.0 compile-internal produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-compile-internal.xml
-[debug] 	report for default#usesaul_2.11;1.0 runtime-internal produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-runtime-internal.xml
-[debug] 	report for default#usesaul_2.11;1.0 test-internal produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-test-internal.xml
-[debug] 	report for default#usesaul_2.11;1.0 plugin produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-plugin.xml
-[debug] 	report for default#usesaul_2.11;1.0 sources produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-sources.xml
-[debug] 	report for default#usesaul_2.11;1.0 docs produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-docs.xml
-[debug] 	report for default#usesaul_2.11;1.0 pom produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-pom.xml
-[debug] 	report for default#usesaul_2.11;1.0 scala-tool produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul_2.11-scala-tool.xml
-[debug] 	resolve done (2493ms resolve - 29ms download)
+[debug] 		tried /Users/chloechen/.ivy2/local/com.google.guava/guava/16.0.1/bundles/guava.jar
+[debug] 		tried https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.jar
+[info] downloading https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.jar
+[info] 	[SUCCESSFUL ] com.google.guava#guava;16.0.1!guava.jar(bundle) (3063ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/jars/scala-compiler.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar (11604ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/jars/scala-reflect.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar (5413ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/bundles/scala-xml_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle) (1591ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/bundles/scala-parser-combinators_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle) (1179ms)
+[debug] 		tried /Users/chloechen/.ivy2/local/jline/jline/2.12.1/jars/jline.jar
+[debug] 		tried https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar
+[info] downloading https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar
+[info] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar (1746ms)
+[debug] :: resolution report :: resolve 7691ms :: artifacts dl 97277ms
+[debug] 	report for usesaul#usesaul_2.11;1.0 compile produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-compile.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 runtime produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-runtime.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 test produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-test.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 provided produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-provided.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 optional produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-optional.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 compile-internal produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-compile-internal.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 runtime-internal produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-runtime-internal.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 test-internal produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-test-internal.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 plugin produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-plugin.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 sources produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-sources.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 docs produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-docs.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 pom produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-pom.xml
+[debug] 	report for usesaul#usesaul_2.11;1.0 scala-tool produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul_2.11-scala-tool.xml
+[debug] 	resolve done (7691ms resolve - 97277ms download)
 [info] Done updating.
