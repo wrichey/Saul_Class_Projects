@@ -4,7 +4,11 @@
 		module="usesaul$sources_2.11"
 		revision="1.0"
 		status="integration"
+<<<<<<< HEAD
 		publication="20160928001744"
+=======
+		publication="20160927115614"
+>>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

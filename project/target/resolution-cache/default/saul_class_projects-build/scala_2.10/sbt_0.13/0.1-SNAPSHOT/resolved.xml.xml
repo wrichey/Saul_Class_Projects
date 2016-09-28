@@ -4,7 +4,11 @@
 		module="saul_class_projects-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
+<<<<<<< HEAD
 		publication="20160928001720"
+=======
+		publication="20160926183336"
+>>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
