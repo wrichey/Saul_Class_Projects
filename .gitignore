@@ -18,3 +18,4 @@ annotation-cache/
 */*.swp
 *.swp
 /.idea/
+/models/
