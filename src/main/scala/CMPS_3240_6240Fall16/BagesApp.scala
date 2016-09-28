@@ -1,8 +1,8 @@
 package CMPS_3240_6240Fall16
 
 /**
- * Created by Parisa on 9/13/16.
- */
+  * Created by Parisa on 9/13/16.
+  */
 import CMPS_3240_6240Fall16.BadgeClassifiers._
 import Readers.BadgeReader
 import scala.collection.JavaConversions._
