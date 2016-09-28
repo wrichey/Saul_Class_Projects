@@ -25,4 +25,3 @@ public class BadgeReader {
 		}catch (Exception e) {}
 	}
 }
-
