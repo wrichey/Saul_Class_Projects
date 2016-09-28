@@ -4,11 +4,7 @@
 		module="usesaul_2.11"
 		revision="1.0"
 		status="integration"
-<<<<<<< HEAD
-		publication="20160928001738"
-=======
-		publication="20160926183352"
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+		publication="20160928002604"
 	>
 		<description>
 		useSaul

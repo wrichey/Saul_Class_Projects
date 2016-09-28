@@ -10,11 +10,7 @@
 [debug] == resolving dependencies for usesaul#usesaul$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32552df0
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60eab9de
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ace44f5
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -23,11 +19,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->default(compile)]
 [info] Resolving edu.illinois.cs.cogcomp#saul_2.11;0.5 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4378dddf
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48f7b73e
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74ecc2a4
 [debug] sbt-chain: module revision found in cache: edu.illinois.cs.cogcomp#saul_2.11;0.5
 [debug] 	found edu.illinois.cs.cogcomp#saul_2.11;0.5 in sbt-chain
 [debug] 	[0.5] edu.illinois.cs.cogcomp#saul_2.11;0.5
@@ -36,11 +28,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->edu.illinois.cs.cogcomp#saul_2.11;0.5 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->default(compile)]
 [info] Resolving edu.illinois.cs.cogcomp#LBJava;1.2.20 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f394188
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a821b9a
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d1ce8fd
 [debug] sbt-chain: module revision found in cache: edu.illinois.cs.cogcomp#LBJava;1.2.20
 [debug] 	found edu.illinois.cs.cogcomp#LBJava;1.2.20 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->runtime]
@@ -48,11 +36,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->edu.illinois.cs.cogcomp#LBJava;1.2.20 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->default(compile)]
 [info] Resolving nz.ac.waikato.cms.weka#weka-stable;3.6.10 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f152b24
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ff93ebd
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1924421f
 [debug] sbt-chain: module revision found in cache: nz.ac.waikato.cms.weka#weka-stable;3.6.10
 [debug] 	found nz.ac.waikato.cms.weka#weka-stable;3.6.10 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->runtime]
@@ -60,11 +44,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->nz.ac.waikato.cms.weka#weka-stable;3.6.10 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->default(compile)]
 [info] Resolving net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58bdebd4
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14399991
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@287e56f3
 [debug] sbt-chain: module revision found in cache: net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a
 [debug] 	found net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->runtime]
@@ -72,11 +52,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->net.sf.squirrel-sql.thirdparty-non-maven#java-cup;0.11a [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->de.bwaldvogel#liblinear;1.94 [compile->default(compile)]
 [info] Resolving de.bwaldvogel#liblinear;1.94 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40e3c8ca
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c8efcb1
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a88f61a
 [debug] sbt-chain: module revision found in cache: de.bwaldvogel#liblinear;1.94
 [debug] 	found de.bwaldvogel#liblinear;1.94 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->de.bwaldvogel#liblinear;1.94 [compile->runtime]
@@ -84,11 +60,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->de.bwaldvogel#liblinear;1.94 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.ojalgo#ojalgo;37.1.1 [compile->default(compile)]
 [info] Resolving org.ojalgo#ojalgo;37.1.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34de1890
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4404eea
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73cf92cc
 [debug] sbt-chain: module revision found in cache: org.ojalgo#ojalgo;37.1.1
 [debug] 	found org.ojalgo#ojalgo;37.1.1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.ojalgo#ojalgo;37.1.1 [compile->runtime]
@@ -96,11 +68,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.ojalgo#ojalgo;37.1.1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->edu.illinois.cs.cogcomp#illinois-core-utilities;3.0.64 [compile->default(compile)]
 [info] Resolving edu.illinois.cs.cogcomp#illinois-core-utilities;3.0.64 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f535a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71bdc95d
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62aa6325
 [debug] sbt-chain: module revision found in cache: edu.illinois.cs.cogcomp#illinois-core-utilities;3.0.64
 [debug] 	found edu.illinois.cs.cogcomp#illinois-core-utilities;3.0.64 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->edu.illinois.cs.cogcomp#illinois-core-utilities;3.0.64 [compile->runtime]
@@ -108,11 +76,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->edu.illinois.cs.cogcomp#illinois-core-utilities;3.0.64 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@125e92a7
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@190456ec
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6882e274
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->runtime]
@@ -120,11 +84,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->junit#junit;4.4 [compile->default(compile)]
 [info] Resolving junit#junit;4.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1596d499
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2adc4bfd
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33766f9e
 [debug] sbt-chain: module revision found in cache: junit#junit;4.4
 [debug] 	found junit#junit;4.4 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->junit#junit;4.4 [compile->runtime]
@@ -132,11 +92,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->junit#junit;4.4 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->net.sf.trove4j#trove4j;3.0.3 [compile->default(compile)]
 [info] Resolving net.sf.trove4j#trove4j;3.0.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@253e0e49
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2719449d
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@534a5048
 [debug] sbt-chain: module revision found in cache: net.sf.trove4j#trove4j;3.0.3
 [debug] 	found net.sf.trove4j#trove4j;3.0.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->net.sf.trove4j#trove4j;3.0.3 [compile->runtime]
@@ -144,11 +100,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->net.sf.trove4j#trove4j;3.0.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.6.1 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-log4j12;1.6.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25584720
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7afa5f52
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77d8d9ca
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-log4j12;1.6.1
 [debug] 	found org.slf4j#slf4j-log4j12;1.6.1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.6.1 [compile->runtime]
@@ -156,11 +108,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.6.1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->log4j#log4j;1.2.16 [compile->default(compile)]
 [info] Resolving log4j#log4j;1.2.16 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2833ab50
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77164769
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68d14c9e
 [debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.16
 [debug] 	found log4j#log4j;1.2.16 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->log4j#log4j;1.2.16 [compile->runtime]
@@ -168,11 +116,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->log4j#log4j;1.2.16 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-io#commons-io;1.3.2 [compile->default(compile)]
 [info] Resolving commons-io#commons-io;1.3.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fa8ffb
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b6fba1
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b0b2d1
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;1.3.2
 [debug] 	found commons-io#commons-io;1.3.2 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-io#commons-io;1.3.2 [compile->runtime]
@@ -180,11 +124,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-io#commons-io;1.3.2 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-lang#commons-lang;2.3 [compile->default(compile)]
 [info] Resolving commons-lang#commons-lang;2.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f53eb8a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9f87177
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8df1c1d
 [debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.3
 [debug] 	found commons-lang#commons-lang;2.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-lang#commons-lang;2.3 [compile->runtime]
@@ -192,11 +132,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-lang#commons-lang;2.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->net.sf.ehcache#ehcache;2.8.3 [compile->default(compile)]
 [info] Resolving net.sf.ehcache#ehcache;2.8.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49d5c122
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f5bd481
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7337064f
 [debug] sbt-chain: module revision found in cache: net.sf.ehcache#ehcache;2.8.3
 [debug] 	found net.sf.ehcache#ehcache;2.8.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->net.sf.ehcache#ehcache;2.8.3 [compile->runtime]
@@ -204,11 +140,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->net.sf.ehcache#ehcache;2.8.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.googlecode.json-simple#json-simple;1.1 [compile->default(compile)]
 [info] Resolving com.googlecode.json-simple#json-simple;1.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e673968
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a345ba4
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a4c506a
 [debug] sbt-chain: module revision found in cache: com.googlecode.json-simple#json-simple;1.1
 [debug] 	found com.googlecode.json-simple#json-simple;1.1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.googlecode.json-simple#json-simple;1.1 [compile->runtime]
@@ -216,11 +148,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.googlecode.json-simple#json-simple;1.1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [compile->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.3.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56f6d4e0
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a592aa0
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38408e14
 [debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.3.1
 [debug] 	found com.google.code.gson#gson;2.3.1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [compile->runtime]
@@ -228,11 +156,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.h2database#h2;1.4.191 [compile->default(compile)]
 [info] Resolving com.h2database#h2;1.4.191 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bbbb893
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4675f5bb
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39377a7f
 [debug] sbt-chain: module revision found in cache: com.h2database#h2;1.4.191
 [debug] 	found com.h2database#h2;1.4.191 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.h2database#h2;1.4.191 [compile->runtime]
@@ -240,11 +164,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.h2database#h2;1.4.191 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.apache.commons#commons-math3;3.0 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math3;3.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14e18d6f
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12c813b9
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76c30bde
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.0
 [debug] 	found org.apache.commons#commons-math3;3.0 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.apache.commons#commons-math3;3.0 [compile->runtime]
@@ -252,11 +172,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.apache.commons#commons-math3;3.0 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d375f7f
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a8479e4
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31a5022b
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
 [debug] 	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime]
@@ -264,11 +180,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1375638
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a4d29a3
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25ab983d
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
@@ -276,11 +188,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3de45869
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5aabe609
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13779e79
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.7
 [debug] 	found ch.qos.logback#logback-classic;1.1.7 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.7 [compile->runtime]
@@ -288,11 +196,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.7 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.7 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@361825d3
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21c0692
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26110d3f
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.7
 [debug] 	found ch.qos.logback#logback-core;1.1.7 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.7 [compile->runtime]
@@ -300,11 +204,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.7 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.20 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.20 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3abbc669
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@664f3c71
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c40efdc
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.20
 [debug] 	found org.slf4j#slf4j-api;1.7.20 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.20 [compile->runtime]
@@ -312,11 +212,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.20 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play_2.11;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.11;2.4.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@695d36b6
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a277359
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e2c8cc0
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.11;2.4.3
 [debug] 	found com.typesafe.play#play_2.11;2.4.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play_2.11;2.4.3 [compile->runtime]
@@ -324,11 +220,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play_2.11;2.4.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#build-link;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.4.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37a56c56
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d6816bb
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60234e7b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.4.3
 [debug] 	found com.typesafe.play#build-link;2.4.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#build-link;2.4.3 [compile->runtime]
@@ -336,11 +228,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#build-link;2.4.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.4.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c5a1769
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25d10f31
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50c09d5a
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.4.3
 [debug] 	found com.typesafe.play#play-exceptions;2.4.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.4.3 [compile->runtime]
@@ -348,11 +236,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.4.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.javassist#javassist;3.19.0-GA [compile->default(compile)]
 [info] Resolving org.javassist#javassist;3.19.0-GA ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48d6e091
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c44e169
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35bc9694
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.19.0-GA
 [debug] 	found org.javassist#javassist;3.19.0-GA in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.javassist#javassist;3.19.0-GA [compile->runtime]
@@ -360,11 +244,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.javassist#javassist;3.19.0-GA [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.4.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b40799d
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59657e59
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e6f6729
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.4.3
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.4.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.3 [compile->runtime]
@@ -372,11 +252,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fd764a8
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72e280f7
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55f28737
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
@@ -384,11 +260,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ebd5460
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64d415c0
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1db6e7bf
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
@@ -396,11 +268,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.4.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ce50ed1
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@205d90bf
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43cb5037
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.4.3
 [debug] 	found com.typesafe.play#play-json_2.11;2.4.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.3 [compile->runtime]
@@ -408,11 +276,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.4.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41788de
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bde37ac
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@536b9524
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.4.3
 [debug] 	found com.typesafe.play#play-functional_2.11;2.4.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.3 [compile->runtime]
@@ -420,11 +284,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.4.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@463f3754
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62894259
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f02064a
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.4.3
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.4.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.3 [compile->runtime]
@@ -432,11 +292,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->joda-time#joda-time;2.8.1 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.8.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4072d307
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4afbd065
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59f91f8b
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.8.1
 [debug] 	found joda-time#joda-time;2.8.1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->joda-time#joda-time;2.8.1 [compile->runtime]
@@ -444,11 +300,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->joda-time#joda-time;2.8.1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.joda#joda-convert;1.7 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.7 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cb1a177
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41c77af2
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67b489c8
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.7
 [debug] 	found org.joda#joda-convert;1.7 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.joda#joda-convert;1.7 [compile->runtime]
@@ -456,11 +308,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.joda#joda-convert;1.7 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d1c67ae
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33195aff
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d0bcddd
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
 [debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
@@ -469,11 +317,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.5.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@629c015f
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@409f74e7
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51d63fe1
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.5.4
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.5.4 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->runtime]
@@ -481,11 +325,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.5.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5442a88f
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e004f12
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77fdef19
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.5.4
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.5.4 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.4 [compile->runtime]
@@ -493,11 +333,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.4 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.5.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78adffd5
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b2e282c
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46be6f02
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.5.4
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.5.4 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.4 [compile->runtime]
@@ -505,11 +341,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.4 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ffa449e
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@264ea3f4
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@776f1d1c
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->runtime]
@@ -517,11 +349,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e482949
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b365ba1
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aa1f3a9
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [compile->runtime]
@@ -529,11 +357,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-utils;2.4.3 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@316cf91a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7638f52f
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28ad5325
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-utils;2.4.3
 [debug] 	found com.typesafe.play#play-netty-utils;2.4.3 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.4.3 [compile->runtime]
@@ -541,11 +365,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.4.3 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.12 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e250be
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67f95ae2
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27020d09
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.12
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.12 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->runtime]
@@ -553,11 +373,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.12 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20fad3ab
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b5d2658
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ab80237
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.12
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.12 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->runtime]
@@ -565,11 +381,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.11;1.1.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44830af5
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a288c01
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7acb36f0
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.1.1
 [debug] 	found com.typesafe.play#twirl-api_2.11;1.1.1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime]
@@ -577,11 +389,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6acf203
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ec846ea
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@741180d0
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->runtime]
@@ -589,11 +397,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cbdbe9d
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2730be83
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ef942cf
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime]
@@ -601,11 +405,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.13 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7544f7e4
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d3af695
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a661965
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.13
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.13 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->runtime]
@@ -613,11 +413,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.3.13 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a31769a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3554107
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d1b64b0
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.13
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.3.13 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->runtime]
@@ -625,11 +421,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65c097df
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38d6d9f4
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@228c4e47
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
@@ -637,11 +429,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@443c0cba
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27015705
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e72c61e
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->runtime]
@@ -649,11 +437,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f58a671
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65acb044
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3457c1c5
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->runtime]
@@ -661,11 +445,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f40fd75
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13ed4e
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22107162
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->runtime]
@@ -673,11 +453,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject#guice;4.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67587a3
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73e35ada
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ed256a3
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;4.0
 [debug] 	found com.google.inject#guice;4.0 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->runtime]
@@ -685,11 +461,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ed07a2a
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b0bc645
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51b98d5b
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->runtime]
@@ -697,11 +469,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e07848d
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@252e5df8
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29ef2996
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->runtime]
@@ -709,11 +477,7 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;16.0.1 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59940dbe
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7829afd8
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e9e64c9
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
 [debug] 	found com.google.guava#guava;16.0.1 in sbt-chain
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->runtime]
@@ -721,15 +485,10 @@
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->master]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
-<<<<<<< HEAD
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6507f08d
-[debug] sbt-chain: module revision found in cache: com.google.inject.extensions#guice-assistedinject;4.0
-[debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in sbt-chain
-=======
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10005abe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@154c9fbb
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@10005abe
-[debug] 		tried /Users/CassieWang/.ivy2/local/com.google.inject.extensions/guice-assistedinject/4.0/ivys/ivy.xml
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@154c9fbb
+[debug] 		tried /Users/chloechen/.ivy2/local/com.google.inject.extensions/guice-assistedinject/4.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.google.inject.extensions#guice-assistedinject;4.0
 [debug] 		tried https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
 [debug] 	jcenter: found md file for com.google.inject.extensions#guice-assistedinject;4.0
@@ -738,12 +497,11 @@
 [debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
 [debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
 [debug] sha1 OK for https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (213ms)
+[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (407ms)
 [info] Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}
 [debug] sbt-chain: module revision found in cache: com.google.inject.extensions#extensions-parent;4.0
 [debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in jcenter
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->runtime]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->compile]
 [debug] == resolving dependencies usesaul#usesaul$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->master]
@@ -4317,8 +4075,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-<<<<<<< HEAD
-[debug] :: resolution report :: resolve 4753ms :: artifacts dl 260ms
+[debug] :: resolution report :: resolve 18059ms :: artifacts dl 701ms
 [debug] 	report for usesaul#usesaul$sources_2.11;1.0 compile produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile.xml
 [debug] 	report for usesaul#usesaul$sources_2.11;1.0 runtime produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-runtime.xml
 [debug] 	report for usesaul#usesaul$sources_2.11;1.0 test produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-test.xml
@@ -4332,21 +4089,4 @@
 [debug] 	report for usesaul#usesaul$sources_2.11;1.0 docs produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-docs.xml
 [debug] 	report for usesaul#usesaul$sources_2.11;1.0 pom produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-pom.xml
 [debug] 	report for usesaul#usesaul$sources_2.11;1.0 scala-tool produced in /Users/chloechen/Documents/machineLearning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-scala-tool.xml
-[debug] 	resolve done (4753ms resolve - 260ms download)
-=======
-[debug] :: resolution report :: resolve 10810ms :: artifacts dl 173ms
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 compile produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 runtime produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-runtime.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 test produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-test.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 provided produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-provided.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 optional produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-optional.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 compile-internal produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile-internal.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 runtime-internal produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-runtime-internal.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 test-internal produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-test-internal.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 plugin produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-plugin.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 sources produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-sources.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 docs produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-docs.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 pom produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-pom.xml
-[debug] 	report for usesaul#usesaul$sources_2.11;1.0 scala-tool produced in /Users/CassieWang/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-scala-tool.xml
-[debug] 	resolve done (10810ms resolve - 173ms download)
->>>>>>> cfd65078f6c4249977ffbdd5d757e5f1e3d1067d
+[debug] 	resolve done (18059ms resolve - 701ms download)
