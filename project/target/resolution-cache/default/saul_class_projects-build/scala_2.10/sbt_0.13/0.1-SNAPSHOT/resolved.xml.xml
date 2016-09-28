@@ -4,7 +4,7 @@
 		module="saul_class_projects-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160926183336"
+		publication="20160927224004"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
