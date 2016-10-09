@@ -9,19 +9,19 @@ import java.util.List;
 public class BadgeReader {
 	public List<String> badges;
 	// int currentBadge;
-	
+
 	public BadgeReader(String dataFile) {
-        badges = new ArrayList<String>();
-		
+		badges = new ArrayList<String>();
+
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(dataFile)));
 
-	        String str;
-	        while ((str = br.readLine()) != null) {
-	            badges.add(str);
-	        }
+			String str;
+			while ((str = br.readLine()) != null) {
+				badges.add(str);
+			}
 
-	        br.close();
+			br.close();
 		}catch (Exception e) {}
 	}
 }
