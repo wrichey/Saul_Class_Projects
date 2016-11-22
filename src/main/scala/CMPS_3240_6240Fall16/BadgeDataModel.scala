@@ -3,23 +3,23 @@ package CMPS_3240_6240Fall16
 import edu.illinois.cs.cogcomp.saul.datamodel.DataModel
 
 /**
- * Created by Parisa on 9/13/16.
- */
+  * Created by Winona on 10/5/16.
+  */
 object BadgeDataModel extends DataModel{
 
-  val badge= node[String]
+  val cell= node[String]
 
-  val BadgeFeature1= property(badge){
+  val CellFeature1= property(cell){
     x: String => {
-      val tokens= x.split(" ")
-      tokens(1).charAt(1).toString
+      val tokens= x.split(",")
+      tokens(2).toInt
     }
   }
 
-  val BadgeLabel =property(badge){
+  val CellLabel =property(cell){
     x: String => {
-      val tokens= x.split(" ")
-      if (tokens(0).equals("+"))
+      val tokens= x.split(",")
+      if (tokens(1).equals("M"))
         "positive"
       else
         "negative"

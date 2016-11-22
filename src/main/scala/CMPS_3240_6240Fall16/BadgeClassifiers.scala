@@ -9,9 +9,9 @@ import edu.illinois.cs.cogcomp.lbjava.learn.{SparseNetworkLearner, SupportVector
 object BadgeClassifiers {
   import BadgeDataModel._
   import edu.illinois.cs.cogcomp.saul.classifier.Learnable
-  object BadgeClassifier extends Learnable[String](badge) {
-    def label = BadgeLabel
+  object BadgeClassifier extends Learnable[String](cell) {
+    def label = CellLabel
     override lazy val classifier = new SupportVectorMachine()
-    override def feature = using(BadgeFeature1)
+    override def feature = using(CellFeature1)
   }
 }
